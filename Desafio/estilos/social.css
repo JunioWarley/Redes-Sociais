@@ -1,0 +1,30 @@
+*{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        background: black url(imagens/tela-youtube.jpg) no-repeat top center fixed;
+        background-size: cover;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    a{
+        display: block;
+        background-color: brown;
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bolder;
+    }
+    a:hover{
+        background-color: #946e4f;
+        color: white;
+    }
